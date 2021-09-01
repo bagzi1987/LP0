@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <html>
+	<head>
+		<title> "Libela produkt" doo </title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="logox.ico">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+
+		<section class="sub-header" style="height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,5,20,0.5), rgba(4,5,20,0.5)), url(https://images.pexels.com/photos/1423597/pexels-photo-1423597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;">
+
+            <nav>
+                <a href="index.html"> <img src="logo3.png"> </a>
+                
+                <div class="nav-links" id="navLinks"> 
+                    
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                     <ul>
+                        <li> <a href="index.html"> Početna </a> </li>
+                        <li> <a href="about.html"> O nama </a> </li>
+                        <li> <a href="blog.html"> Otkupi </a> </li>
+                        <li> <a href="course.html"> Cenovnici </a> </li>
+                        <li> <a href="contact.html"> Kontakt </a> </li>
+                        
+                    </ul>
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>          
+                        <h1> Silosi Zmajevo </h1>
+		</section>
+        
+     
+        <section class="contact-us"> 
+            <div class="row"> 
+                <div class="contact-col"> 
+                    <div> 
+                        <i class="fa fa-home"></i>
+                        <span> 
+                            <h5> Adresa </h5>
+                            <p> Maršala Tita bb <br> 21213  Zmajevo
+                                Opština Vrbas </p>
+                        </span>
+                    </div>
+                    
+                    <div> 
+                        <i class="fa fa-phone"></i>
+                        <span> 
+                            <h5> Kontakt osoba  </h5>
+                            <p>   063/532-262,
+                                Milorad Mihajlović  </p>
+                        </span>
+                    </div>
+                    
+                     <div> 
+                        <i class="fa fa-phone"></i>
+                        <span> 
+                            <h5>  Fax  </h5>
+                            <p>   021/725-095  </p>
+                        </span>
+                    </div>
+                    
+
+                    
+                    
+                    
+                    <div> 
+                        <i class="fa fa-envelope-o"></i>
+                        <span> 
+                            <h5> E-mail </h5>
+                            <p> siloszmajevogmail.com </p>
+                        </span>
+                    </div>
+                    
+
+                    
+                    
+                </div>
+                    
+                    
+                    <div class="about-col"  style="animation: SlideInFromBottom 0.5s ease-in;"> 
+                        <img src="zma.jpg">
+                        
+                    </div>
+                </div>
+            
+
+
+        </section>
+        
+  
+          
+<iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d5597.191878699141!2d19.6738287264525!3d45.45779788865872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d45.4582268!2d19.6735498!5e0!3m2!1ssr!2srs!4v1630436020191!5m2!1ssr!2srs" width="100%" height="650" style="border:0;" allowfullscreen=""></iframe>
+
+
+
+        
+        
+        
+
+   
+        
+        
+        
+        <!---------- Footer ---------->
+        <section class="footer">
+
+            
+            <p> Misija:<br>
+Optimalnim korišćenjem resursa i kvalitetom usluga, oblikujemo poslovnu klimu na regionalnom agro tržištu, koja svima nama donosi dodatne benefite čime stvaramo bolju budućnost.
+<br>
+Vizija: <br>
+Težimo da budemo među vodećim kompanijama za siguran plasman domaćih poljoprivrednih proizvoda na međunarodnom agro tržištu.    </p>
+            <div class="icons">
+
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+
+        </section>
+        
+        
+        <!---------- Footer ---------->
+        
+        
+        
+        
+
+<!-------- JavaScript for Toggle menu ---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+<i class="fa fa-chevron-circle-up" aria-hidden="true" onclick="topFunction()" id="myBtn"></i>
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	</body>
+
+</html>

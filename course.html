@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html>
+	<head>
+		<title> "Libela produkt" doo </title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="logox.ico">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+
+			<section class="sub-header" style="height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,5,20,0.5), rgba(4,5,20,0.5)), url(https://images.unsplash.com/photo-1524287860394-2aaaef89eaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;">
+            <nav>
+                <a href="index.html"> <img src="logo3.png"> </a>
+                
+                <div class="nav-links" id="navLinks"> 
+                    
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                     <ul>
+                        <li> <a href="index.html"> Početna </a> </li>
+                        <li> <a href="about.html"> O nama </a> </li>
+                        <li> <a href="blog.html"> Otkupi </a> </li>
+                        <li> <a href="course.html"> Cenovnici </a> </li>
+                        <li> <a href="contact.html"> Kontakt </a> </li>
+                        
+                    </ul>
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>          
+                        <h1> Cenovnici </h1>
+		</section>
+        
+     
+        
+        
+        
+        
+        <section class="cta" style="background-image: linear-gradient(rgba(4,5,20,0.5), rgba(4,5,20,0.5)), url(https://img.freepik.com/free-photo/farmer-giving-fertilizer-young-tobacco-plant_30478-5220.jpg?size=626&ext=jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;"> 
+            <h1> Veštačko đubrivo </h1>
+            
+            <a href="vestak.html" class="hero-btn"> Detaljnije </a>
+        </section>
+
+        
+                <section class="cta" style="background-image: linear-gradient(rgba(4,5,20,0.5), rgba(4,5,20,0.5)), url(        https://www.cdc.gov/nceh/tracking/topics/images/PesticideExposure_Header.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;"> 
+            <h1> Hemijska sredstva </h1>
+            
+            <a href="hemija.html" class="hero-btn"> Detaljnije </a>
+        </section>
+        
+        
+        
+                <section class="cta" style="background-image: linear-gradient(rgba(4,5,20,0.5), rgba(4,5,20,0.5)), url(        https://images.immediate.co.uk/production/volatile/sites/4/2019/03/GettyImages-plant-seed-ab387fa.jpg?quality=90&resize=768,574);
+    background-position: bottom center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;"> 
+            <h1> Semena </h1>
+            
+            <a href="semena.html" class="hero-btn"> Detaljnije </a>
+        </section>
+        
+
+        
+        
+        
+        
+        <!---------- Footer ---------->
+        <section class="footer">
+
+            
+            <p> Misija:<br>
+Optimalnim korišćenjem resursa i kvalitetom usluga, oblikujemo poslovnu klimu na regionalnom agro tržištu, koja svima nama donosi dodatne benefite čime stvaramo bolju budućnost.
+<br>
+Vizija: <br>
+Težimo da budemo među vodećim kompanijama za siguran plasman domaćih poljoprivrednih proizvoda na međunarodnom agro tržištu.    </p>
+            <div class="icons">
+
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+
+        </section>
+        
+        
+        <!---------- Footer ---------->
+        
+        
+        
+        
+
+<!-------- JavaScript for Toggle menu ---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<i class="fa fa-chevron-circle-up" aria-hidden="true" onclick="topFunction()" id="myBtn"></i>
+
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	</body>
+
+</html>

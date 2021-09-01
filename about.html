@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+    <html>
+	<head>
+		<title> "Libela produkt" doo </title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="logox.ico">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+
+					<section class="sub-header" style="height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,5,20,0.5), rgba(4,5,20,0.5)), url(https://images.pexels.com/photos/1423597/pexels-photo-1423597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;">
+            <nav>
+                <a href="index.html"> <img src="logo3.png"> </a>
+                
+                <div class="nav-links" id="navLinks"> 
+                    
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                     <ul>
+                        <li> <a href="index.html"> Početna </a> </li>
+                        <li> <a href="about.html"> O nama </a> </li>
+                        <li> <a href="blog.html"> Otkupi </a> </li>
+                        <li> <a href="course.html"> Cenovnici </a> </li>
+                        <li> <a href="contact.html"> Kontakt </a> </li>
+                        
+                    </ul>
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>          
+                        <h1> O nama </h1>
+            
+
+		</section>
+        
+     
+        <!------------ about us content ----------->
+        <section class="about-us"> 
+                <div class="row">
+                    <div class="about-col" style="animation: SlideInFromLeft 0.6s ease-in;">
+             
+ <p> "Libela produkt" doo osnovana je 18.12.1998 godine.
+Osnivač firme je Prelević Momčilo.
+Suvlasnici firme su Prelević Veselin, Prelević Aleksandar i Prelević Dušan.
+Sedište firme nalazi se u južno-bačkom okrugu, u opštini Vrbas, u mestu Zmajevo, malom mestu u srcu Vojvodine – regiji sa najplodnijom zemljom jugoistočne Evrope.
+
+Od male porodične firme, tokom  godina porasli smo u respektabilno preduzeće, koje u svojim aktivnostima primenjuje svetske standarde.
+
+Imamo poverenje velikog broja kooperanata koji je sada dostigao broj preko 3.000.
+Broj kooperanata se i dalje povećava i sa njima imamo čvrstu saradnju već duži niz godina.
+
+Imamo i poverenje velikog broja firmi/saradnika kao sto su Delta Agrar, DTS - Delta Transportni Sistem, Elixir Agrar, Victoria Logistic, Agroglobe, Gebi, Agropromet, Žitnica RPS, NS-Agro-Ing, Galenika-fitofarmacija, Agropromet, AgroSava, SavaCoop, Dunav osiguranje  i mnogi drugi.
+
+Članica smo asocijacije "Vojvodina Agrar" koja broji 24 firme sa kojima imamo tesnu saradnju.
+
+Bavimo se otkupom raznih vrsta žitarica, uljarica, trgovinom veštačkog đubriva, prodajom svih vrsta semena ječma, pšenice, uljane repice, suncokreta, soje, kukuruza, šećerne repe i prodajom hemijskih sredstava.
+
+ </p>
+        </div>
+                    
+                    
+                    <div class="about-col" style="animation: SlideInFromRight 0.6s ease-in;"> 
+                        <img src="1.jpg">
+                        
+                    </div>
+                </div>
+        </section>
+        
+        
+
+
+        
+   
+        
+        
+        
+        
+        
+        <!---------- Footer ---------->
+        <section class="footer">
+
+            
+            <p> Misija:<br>
+Optimalnim korišćenjem resursa i kvalitetom usluga, oblikujemo poslovnu klimu na regionalnom agro tržištu, koja svima nama donosi dodatne benefite čime stvaramo bolju budućnost.
+<br>
+Vizija: <br>
+Težimo da budemo među vodećim kompanijama za siguran plasman domaćih poljoprivrednih proizvoda na međunarodnom agro tržištu.    </p>
+            <div class="icons">
+
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+
+        </section>
+        
+        
+        <!---------- Footer ---------->
+        
+        
+        
+        
+
+<!-------- JavaScript for Toggle menu ---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+        
+        
+        
+        
+        
+        
+<i class="fa fa-chevron-circle-up" aria-hidden="true" onclick="topFunction()" id="myBtn"></i>
+
+
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	</body>
+
+</html>
